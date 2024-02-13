@@ -15,7 +15,7 @@ This repository contains the raw data generated for ACM Transactions on Architec
   # Install python requirements
   python3 -m pip install -r requirements.txt
   ```
-  
+
 ## To re-do the fault injection and profiling
 
 ### NVIDIA tools and boards:
@@ -43,9 +43,10 @@ Modified code source can be found here:
 
 ## Data parsing
 
-In the [parsers](parsers/) directory, 
+In the [parsers](parsers/) directory,
 you can find the scripts and data required to regenerate the graphs from the paper.
 To regenerate the graphs, run the commands given below:
+
 ```shell
 cd parsers/
 mkdir sheets/
@@ -58,6 +59,7 @@ cd ../
 ./draw_ChipIR_cross_section.py
 ./draw_error_probability.py
 ```
+
 The data that has been parsed will be saved in the directories named data/, sheets/, and fig/.
 
 # Citing this research
@@ -65,17 +67,17 @@ The data that has been parsed will be saved in the directories named data/, shee
 Use the following citation:
 
 ```bibtex
-    @article{10.1145/3638249,
-        author = {Santos, Fernando Fernandes dos and Carro, Luigi and Vella, Flavio and Rech, Paolo},
-        title = {Assessing the Impact of Compiler Optimizations on GPUs Reliability},
-        year = {2024},
-        publisher = {Association for Computing Machinery},
-        address = {New York, NY, USA},
-        issn = {1544-3566},
-        url = {https://doi.org/10.1145/3638249},
-        note = {Just Accepted},
-        journal = {ACM Transactions on Architecture and Code Optimization},
-        month = {jan},
-        keywords = {error rate, Graphics Processing Units, reliability, reliability, neutron-induced errors}
-    } 
+@article{10.1145/3638249,
+    author = {Santos, Fernando Fernandes dos and Carro, Luigi and Vella, Flavio and Rech, Paolo},
+    title = {Assessing the Impact of Compiler Optimizations on GPUs Reliability},
+    year = {2024},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    issn = {1544-3566},
+    url = {https://doi.org/10.1145/3638249},
+    note = {Just Accepted},
+    journal = {ACM Transactions on Architecture and Code Optimization},
+    month = {jan},
+    keywords = {error rate, Graphics Processing Units, reliability, reliability, neutron-induced errors}
+} 
 ```
