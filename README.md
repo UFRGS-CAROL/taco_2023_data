@@ -60,8 +60,6 @@ cd ../
 ```
 The data that has been parsed will be saved in the directories named data/, sheets/, and fig/.
 
-### Plotting the graphs
-
 # Citing this research
 
 Use the following citation:
