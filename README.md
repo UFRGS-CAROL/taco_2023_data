@@ -2,6 +2,10 @@
 
 This repository contains the raw data generated for ACM Transactions on Architecture and Code Optimization in 2024.
 
+Also available on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10707572.svg)](https://doi.org/10.5281/zenodo.10707572)
+
 # Requirements
 
 ## To only re-generate the graphs from the paper
